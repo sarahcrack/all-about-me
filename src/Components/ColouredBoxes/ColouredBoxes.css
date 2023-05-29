@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Rowdies:wght@700&display=swap");
+
+.headingRight,
+.headingLeft {
+  font-family: "Rowdies", cursive;
+  font-size: 2.5rem;
+  color: #172a3a;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
