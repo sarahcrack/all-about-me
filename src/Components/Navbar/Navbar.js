@@ -18,6 +18,7 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import { HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
+import Logo from "../Logo/Logo";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,9 +32,11 @@ export default function Navbar() {
     <div className="Navbar">
       <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems="center" justifyContent="space-between">
-          <Box>Logo</Box>
+          <Box>
+            {" "}
+            <Logo />
+          </Box>
           <Flex alignItems="center">
-            <Link to="/">Home</Link>
             <Spacer />
             <Flex alignItems="center">
               <Stack direction="row" spacing={4}>
