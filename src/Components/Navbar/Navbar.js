@@ -40,7 +40,7 @@ export default function Navbar() {
             <Spacer />
             <Flex alignItems="center">
               <Stack direction="row" spacing={4}>
-                <Link to="/about">About Me</Link>
+                <Link to="/about-me">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/mycodingjourney">My Coding Journey</Link>
                 <Link to="/contact">Contact Me</Link>

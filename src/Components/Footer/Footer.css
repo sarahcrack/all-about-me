@@ -11,3 +11,14 @@
   color: #fe5f55;
 }
 
+.linkedInIcon {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+}
+
+.githubIcon {
+  width: 25px;
+  height: 25px;
+  margin: 0 15px 0 0;
+}

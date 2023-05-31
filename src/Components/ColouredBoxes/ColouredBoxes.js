@@ -49,7 +49,9 @@ function ColouredBoxes({
         justifyContent="center"
         alignItems="center"
       >
-        {leftImage && <img src={leftImage} alt="Left Box" />}
+        {leftImage && (
+          <img src={leftImage} alt="Left Box" className="leftImage" />
+        )}
         <div className="headingLeft">{headingLeft}</div>
       </Box>
       <Box
@@ -61,7 +63,9 @@ function ColouredBoxes({
         justifyContent="center"
         alignItems="center"
       >
-        {rightImage && <img src={rightImage} alt="Right Box" />}
+        {rightImage && (
+          <img src={rightImage} alt="Right Box" className="rightImage" />
+        )}
         <div className="headingRight">{headingRight}</div>
       </Box>
     </Flex>

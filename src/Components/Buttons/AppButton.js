@@ -7,7 +7,7 @@ function AppButton({ bg, btnText, scrollDown }) {
     if (scrollDown) {
       // Scroll down slightly when the button is clicked
       window.scrollBy({
-        top: window.innerHeight * 0.5,
+        top: window.innerHeight * 0.6,
         behavior: "smooth",
       });
     }

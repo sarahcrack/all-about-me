@@ -10,3 +10,24 @@
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
+
+/* Avatar animation */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50px);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(-50px);
+  }
+}
+
+.leftImage {
+  animation: slideIn 3s ease-in-out infinite;
+}
+
+.rightImage {
+  animation: slideIn 3s ease-in-out infinite;
+}
