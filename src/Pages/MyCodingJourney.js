@@ -1,7 +1,22 @@
+import Hero from "../Components/Hero/Hero";
+
 function MyCodingJourney() {
+  const heroHeading = (
+    <>
+      My
+      <br />
+      Coding Journey
+    </>
+  );
+
   return (
     <div>
-      <h1>My Coding Journey</h1>
+      <Hero
+        bg="#FE5F55"
+        colour="#7A9E9F"
+        heroHeading={heroHeading}
+        heroDescription="An insight into my tech journey so far  🚀"
+      />
     </div>
   );
 }

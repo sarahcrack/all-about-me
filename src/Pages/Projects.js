@@ -1,7 +1,22 @@
+import Hero from "../Components/Hero/Hero";
+
 function Projects() {
+  const heroHeading = (
+    <>
+      My
+      <br />
+      Projects
+    </>
+  );
+
   return (
     <div>
-      <h1>Projects</h1>
+      <Hero
+        bg="#7A9E9F"
+        colour="#FCDDEC"
+        heroHeading={heroHeading}
+        heroDescription="A few projects I  loved working on 🤩"
+      />
     </div>
   );
 }

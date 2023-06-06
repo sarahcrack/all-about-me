@@ -1,7 +1,20 @@
+import Hero from "../Components/Hero/Hero";
 function AboutMe() {
+  const heroHeading = (
+    <>
+      All About
+      <br /> Me
+    </>
+  );
+
   return (
-    <div>
-      <h1>About Me</h1>
+    <div className="aboutMe">
+      <Hero
+        bg="#FCDDEC"
+        colour="#B8D7F1"
+        heroHeading={heroHeading}
+        heroDescription="Hello 👋🏻"
+      />
     </div>
   );
 }

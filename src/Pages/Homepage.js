@@ -18,6 +18,7 @@ function Homepage() {
     <div className="Homepage">
       <Hero
         bg="#B8D7F1"
+        colour="#7A9E9F"
         heroHeading={heroHeading}
         heroDescription="Aspiring Junior Developer from London 👩‍💻"
       />
