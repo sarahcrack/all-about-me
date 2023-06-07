@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+.aboutMe-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  margin: 10px auto 0; /* Adjust the margin-top value as desired */
+  max-width: 1000px;
+  min-height: 100vh;
+}
+
+.profilePicture {
+  border-radius: 20%;
+  border: 2px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 0 4px #fff;
+  }
+}
+
+p.aboutMe-description {
+  margin: 20px 0;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: black;
+  font-family: "Barlow", sans-serif;
+  max-width: 800px;
+}
