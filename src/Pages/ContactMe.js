@@ -1,4 +1,5 @@
 import Hero from "../Components/Hero/Hero";
+import Footer from "../Components/Footer/Footer";
 
 function ContactMe() {
   const heroHeading = (
@@ -17,6 +18,7 @@ function ContactMe() {
         heroHeading={heroHeading}
         heroDescription="I would love to hear from you! 📧"
       />
+      <Footer />
     </div>
   );
 }

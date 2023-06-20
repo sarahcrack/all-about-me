@@ -1,4 +1,5 @@
 import Hero from "../Components/Hero/Hero";
+import Footer from "../Components/Footer/Footer";
 import dictionaryCorner from "../Images/dictionary-corner.png";
 import wickedWeatherApp from "../Images/wicked-weather-app.png";
 import reactWeatherApp from "../Images/react-weather-app.png";
@@ -49,11 +50,11 @@ function Projects() {
                 I was inspired by my husband who has recently appeared on the TV
                 show Countdown, and decided to start creating a Dictionary App!
                 I wanted to practise creating a React app from scratch as well
-                as practise my CSS skills.
+                as develop my CSS skills.
               </Text>
               <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
                 React | CSS | APIs | Netlify | GitHub | Figma | JavaScript |
-                React Router | Axios
+                Axios
               </Text>
             </Stack>
           </CardBody>
@@ -193,7 +194,8 @@ function Projects() {
                 incorporated Bootstrap in the design.
               </Text>
               <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
-                HTML | CSS | JavaScript | Netlify | GitHub | Bootstrap
+                HTML | CSS | JavaScript | Netlify | GitHub | Bootstrap |
+                FontAwesome
               </Text>
             </Stack>
           </CardBody>
@@ -213,6 +215,7 @@ function Projects() {
           </CardFooter>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 }

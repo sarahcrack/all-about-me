@@ -1,4 +1,5 @@
 import Hero from "../Components/Hero/Hero";
+import Footer from "../Components/Footer/Footer";
 
 function MyCodingJourney() {
   const heroHeading = (
@@ -17,6 +18,7 @@ function MyCodingJourney() {
         heroHeading={heroHeading}
         heroDescription="An insight into my tech journey so far  🚀"
       />
+      <Footer />
     </div>
   );
 }
