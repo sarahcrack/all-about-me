@@ -3,6 +3,7 @@ import dictionaryCorner from "../Images/dictionary-corner.png";
 import wickedWeatherApp from "../Images/wicked-weather-app.png";
 import reactWeatherApp from "../Images/react-weather-app.png";
 import tributePage from "../Images/tribute-page.png";
+import photographyProject from "../Images/photography-project.png";
 import "./Projects.css";
 import {
   Card,
@@ -167,6 +168,41 @@ function Projects() {
               <Button variant="solid" bg="#FCDDEC" className="launch-button">
                 <a
                   href="https://cosmic-moxie-dd99b9.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Launch App
+                </a>
+              </Button>
+            </ButtonGroup>
+          </CardFooter>
+        </Card>
+
+        <Card maxW="sm" m={10}>
+          <CardBody>
+            <Image
+              src={photographyProject}
+              alt="Screenshot of React Weather App"
+              borderRadius="lg"
+            />
+            <Stack mt="6" spacing="3">
+              <Heading size="xs">Photography Project 📸</Heading>
+              <Text className="card-text">
+                A project to showcase some of my favourite photos taken with my
+                Lumix camera 📸 The website is fully responsive and I
+                incorporated Bootstrap in the design.
+              </Text>
+              <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
+                HTML | CSS | JavaScript | Netlify | GitHub | Bootstrap
+              </Text>
+            </Stack>
+          </CardBody>
+          <Divider />
+          <CardFooter style={{ display: "flex", justifyContent: "center" }}>
+            <ButtonGroup spacing="2">
+              <Button variant="solid" bg="#FCDDEC" className="launch-button">
+                <a
+                  href="https://delightful-lebkuchen-b85e82.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                 >
