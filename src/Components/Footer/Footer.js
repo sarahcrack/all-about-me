@@ -57,7 +57,7 @@ function Footer() {
               />
             </a>
             <a
-              href="https://github.com/sarahcrack"
+              href="https://github.com/sarahcrack/all-about-me"
               target="_blank"
               rel="noreferrer"
             >
