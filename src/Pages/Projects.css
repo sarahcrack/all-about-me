@@ -23,6 +23,18 @@
   color: #7a9e9f;
 }
 
+.team-links:hover {
+  text-decoration: underline;
+}
+
+.working-on {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
 .launch-button {
   font-family: "Barlow", sans-serif;
 }

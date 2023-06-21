@@ -6,6 +6,9 @@ import reactWeatherApp from "../Images/react-weather-app.png";
 import tributePage from "../Images/tribute-page.png";
 import photographyProject from "../Images/photography-project.png";
 import saladCream from "../Images/salad-cream.png";
+import aroundTheWorld from "../Images/around-the-world.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import "./Projects.css";
 import {
   Card,
@@ -38,7 +41,78 @@ function Projects() {
         heroDescription="A few projects I  loved working on 🤩"
       />
       <div className="cards-container">
-        <Card maxW="xs" m={10}>
+        <Card maxW="sm" m={10}>
+          <CardBody>
+            <Image
+              src={aroundTheWorld}
+              alt="Screenshot of Around The World App"
+              borderRadius="lg"
+            />
+            <Stack mt="6" spacing="3">
+              <Heading size="sm">Around the World 🌎</Heading>
+              <Text className="card-text">
+                A School of Code Friday Hackathon team project. We were given
+                the day to create an app that allows users to learn about
+                different countries around the world. We used the REST Countries
+                API to get the data and React to build the app.
+              </Text>
+              <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
+                React | CSS | APIs | Netlify | GitHub JavaScript
+              </Text>
+              <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
+                Team:{" "}
+                <a
+                  href="https://www.linkedin.com/in/alice-firminger-785b37267/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  Alice Firminger
+                </a>{" "}
+                and
+                <a
+                  href="https://www.linkedin.com/in/mohamed-moallin-131161147/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  {" "}
+                  Mohamed Moallin
+                </a>
+              </Text>
+              <Text className="working-on">
+                💡 Currently working on adding a filter for Eurovision winners
+                (mainly because I love Eurovision!)
+              </Text>
+            </Stack>
+          </CardBody>
+          <a
+            href="https://github.com/sarahcrack/around-the-world"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithubSquare}
+              style={{ color: "#7A9E9F" }}
+              className="githubIcon"
+            />
+          </a>
+          <Divider />
+          <CardFooter style={{ display: "flex", justifyContent: "center" }}>
+            <ButtonGroup spacing="2">
+              <Button variant="solid" bg="#FCDDEC" className="launch-button">
+                <a
+                  href="https://boisterous-bavarois-dbf7e2.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Launch App
+                </a>
+              </Button>
+            </ButtonGroup>
+          </CardFooter>
+        </Card>
+        <Card maxW="sm" m={10}>
           <CardBody>
             <Image
               src={dictionaryCorner}
@@ -59,6 +133,17 @@ function Projects() {
               </Text>
             </Stack>
           </CardBody>
+          <a
+            href="https://github.com/sarahcrack/dictionary-corner"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithubSquare}
+              style={{ color: "#7A9E9F" }}
+              className="githubIcon"
+            />
+          </a>
           <Divider />
           <CardFooter style={{ display: "flex", justifyContent: "center" }}>
             <ButtonGroup spacing="2">
@@ -82,9 +167,11 @@ function Projects() {
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="xs">My Wicked Weather App 🌤️ 🌧️</Heading>
+              <Heading size="xs">My Wicked Weather App 🌤️ 🌧️ </Heading>
               <Text className="card-text">
-                A weather app designed by myself and coded in vanilla JavaScript
+                A weather app designed by myself and coded in vanilla
+                JavaScript. It was a great opportunity to build a more
+                complicated app from design through to deployment.
               </Text>
               <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
                 HTML | CSS | APIs | Netlify | GitHub | InVision | JavaScript |
@@ -92,6 +179,17 @@ function Projects() {
               </Text>
             </Stack>
           </CardBody>
+          <a
+            href="https://github.com/sarahcrack/my-wicked-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithubSquare}
+              style={{ color: "#7A9E9F" }}
+              className="githubIcon"
+            />
+          </a>
           <Divider />
           <CardFooter style={{ display: "flex", justifyContent: "center" }}>
             <ButtonGroup spacing="2">
@@ -127,6 +225,17 @@ function Projects() {
               </Text>
             </Stack>
           </CardBody>
+          <a
+            href="https://github.com/sarahcrack/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithubSquare}
+              style={{ color: "#7A9E9F" }}
+              className="githubIcon"
+            />
+          </a>
           <Divider />
           <CardFooter style={{ display: "flex", justifyContent: "center" }}>
             <ButtonGroup spacing="2">
