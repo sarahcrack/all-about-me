@@ -9,12 +9,18 @@
 .Footer a {
   text-decoration: underline;
   color: #fe5f55;
+  transition: all 100ms ease-in-out;
 }
 
 .linkedInIcon {
   width: 25px;
   height: 25px;
   margin: 0 10px;
+}
+
+.linkedInIcon:hover,
+.githubIcon:hover {
+  transform: scale(1.1); /* Example: Increase size on hover */
 }
 
 .githubIcon {

@@ -102,7 +102,7 @@ function Projects() {
             <ButtonGroup spacing="2">
               <Button variant="solid" bg="#FCDDEC" className="launch-button">
                 <a
-                  href="https://boisterous-bavarois-dbf7e2.netlify.app/"
+                  href="https://remarkable-entremet-ef05e9.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -273,6 +273,17 @@ function Projects() {
               </Text>
             </Stack>
           </CardBody>
+          <a
+            href="https://github.com/sarahcrack/tribute-page"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithubSquare}
+              style={{ color: "#7A9E9F" }}
+              className="githubIcon"
+            />
+          </a>
           <Divider />
           <CardFooter style={{ display: "flex", justifyContent: "center" }}>
             <ButtonGroup spacing="2">
@@ -311,6 +322,17 @@ function Projects() {
               </Text>
             </Stack>
           </CardBody>
+          <a
+            href="https://github.com/sarahcrack/photography-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithubSquare}
+              style={{ color: "#7A9E9F" }}
+              className="githubIcon"
+            />
+          </a>
           <Divider />
           <CardFooter style={{ display: "flex", justifyContent: "center" }}>
             <ButtonGroup spacing="2">
@@ -348,6 +370,17 @@ function Projects() {
               </Text>
             </Stack>
           </CardBody>
+          <a
+            href="https://github.com/sarahcrack/salad-cream"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithubSquare}
+              style={{ color: "#7A9E9F" }}
+              className="githubIcon"
+            />
+          </a>
           <Divider />
           <CardFooter style={{ display: "flex", justifyContent: "center" }}>
             <ButtonGroup spacing="2">

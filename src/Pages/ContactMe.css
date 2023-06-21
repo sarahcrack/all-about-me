@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+.contact-me-text {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-me-links {
+  margin-bottom: 50px;
+}
+
+.contact-me-links a {
+  font-size: 2rem;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
