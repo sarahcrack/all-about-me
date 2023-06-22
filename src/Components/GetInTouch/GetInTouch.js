@@ -8,7 +8,7 @@ function GetInTouch() {
   return (
     <Flex>
       <Box bg="#B8D7F1" flex="1" height="30vh">
-        <h1 className="hearFromYou">I would love to hear from you!</h1>
+        <h1 className="hear-from-you hear-from-you-responsive">I would love to hear from you!</h1>
         <Link to="/contact">
           <AppButton bg="#7A9E9F" btnText="Get In Touch" />
         </Link>

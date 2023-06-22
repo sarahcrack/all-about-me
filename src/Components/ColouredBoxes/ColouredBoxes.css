@@ -11,6 +11,23 @@
   text-transform: uppercase;
 }
 
+/* Media quieries for headings */
+.heading-responsive {
+  font-size: 2.5rem; /* Default font size for larger screens */
+}
+
+@media (max-width: 768px) {
+  .heading-responsive {
+    font-size: 2rem; /* Font size for screens up to 768px wide */
+  }
+}
+
+@media (max-width: 480px) {
+  .heading-responsive {
+    font-size: 0.8rem; /* Font size for screens up to 480px wide */
+  }
+}
+
 /* Avatar animation */
 @keyframes slideIn {
   0% {

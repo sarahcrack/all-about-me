@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Rowdies:wght@700&display=swap");
 
-.hearFromYou {
+.hear-from-you {
   font-family: "Rowdies", cursive;
   font-size: 2.5rem;
   color: #172a3a;
@@ -8,4 +8,20 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-transform: uppercase;
+}
+
+.hear-from-you-responsive {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .hear-from-you-responsive {
+    font-size: 2rem; /* Font size for screens up to 768px wide */
+  }
+}
+
+@media (max-width: 480px) {
+  .hear-from-you-responsive {
+    font-size: 0.6rem; /* Font size for screens up to 480px wide */
+  }
 }

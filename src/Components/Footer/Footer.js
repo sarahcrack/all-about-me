@@ -24,11 +24,22 @@ function Footer() {
         justifyContent="space-between"
         width="100%"
       >
-        <Box className="myName" marginLeft={30} mb={5}>
+        <Box
+          className="myName"
+          marginLeft={30}
+          mb={5}
+          fontSize={{ base: "12px", md: "16px" }}
+        >
           © 2023 Sarah Crack
         </Box>
         <Flex alignItems="center">
-          <Box className="myLinks" marginRight={70} mb={5}>
+          {/* <Box className="myLinks" marginRight={70} mb={5}> */}
+          <Box
+            className="myLinks"
+            marginRight={{ base: 5, md: 70 }} // Adjust margin based on screen size
+            mb={5}
+            fontSize={{ base: "12px", md: "16px" }}
+          >
             This project was coded in React by{" "}
             <a
               href="https://www.linkedin.com/in/sarahcrack/"
