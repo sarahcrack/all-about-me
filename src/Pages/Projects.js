@@ -7,6 +7,7 @@ import tributePage from "../Images/tribute-page.png";
 import photographyProject from "../Images/photography-project.png";
 import saladCream from "../Images/salad-cream.png";
 import aroundTheWorld from "../Images/around-the-world.png";
+import bridgeTheGap from "../Images/bridge-the-gap.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import "./Projects.css";
@@ -44,12 +45,92 @@ function Projects() {
         <Card maxW="sm" m={10}>
           <CardBody>
             <Image
+              src={bridgeTheGap}
+              alt="Screenshot of Around The World App"
+              borderRadius="lg"
+            />
+            <Stack mt="6" spacing="3">
+              <Heading size="sm">Bridge The Gap 🚇</Heading>
+              <Text className="card-text">
+                In a one-week School of Code team project, we developed "Bridge
+                The Gap," a front-end application for bootcampers to contribute
+                useful links to the SoC 14 community and find resources to
+                assist in their learning journey.
+              </Text>
+              <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
+                React | CSS | APIs | Netlify | GitHub | JavaScript | React
+                Router
+              </Text>
+              <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
+                Team:{" "}
+                <a
+                  href="https://www.linkedin.com/in/paul-greenfield/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  Paul Greenfield
+                </a>{" "}
+                ,
+                <a
+                  href="https://www.linkedin.com/in/umamahbegg/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  {" "}
+                  Umamah Begg
+                </a>{" "}
+                and
+                <a
+                  href="https://www.linkedin.com/in/bim-ehighebolo-3aba02249/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  {" "}
+                  Bim Ehighebolo
+                </a>{" "}
+              </Text>
+            </Stack>
+          </CardBody>
+          <a
+            href="https://github.com/sarahcrack/bridge-the-gap"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithubSquare}
+              style={{ color: "#7A9E9F" }}
+              className="githubIcon"
+            />
+          </a>
+          <Divider />
+          <CardFooter style={{ display: "flex", justifyContent: "center" }}>
+            <ButtonGroup spacing="2">
+              <Button variant="solid" bg="#FCDDEC" className="launch-button">
+                <a
+                  href="https://glowing-dodol-946ea6.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Launch App
+                </a>
+              </Button>
+            </ButtonGroup>
+          </CardFooter>
+        </Card>
+        <Card maxW="sm" m={10}>
+          <CardBody>
+            <Image
               src={aroundTheWorld}
               alt="Screenshot of Around The World App"
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="sm">Around the World 🌎</Heading>
+              <Heading size="sm" mt="30">
+                Around the World 🌎
+              </Heading>
               <Text className="card-text">
                 A School of Code Friday Hackathon team project. We were given
                 the day to create an app that allows users to learn about
@@ -57,7 +138,7 @@ function Projects() {
                 API to get the data and React to build the app.
               </Text>
               <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
-                React | CSS | APIs | Netlify | GitHub JavaScript
+                React | CSS | APIs | Netlify | GitHub | JavaScript
               </Text>
               <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
                 Team:{" "}
