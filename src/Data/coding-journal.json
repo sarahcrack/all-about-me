@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "week": "1",
+    "day": 1,
+    "progress": "Today's Progress",
+    "thoughts": "Thoughts",
+    "links": [
+      {
+        "title": "CSS Diner",
+        "url": "https://flukeout.github.io/"
+      }
+    ],
+    "imageUrls": [
+      {
+        "title": "Cute Cat",
+        "path": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.webp",
+        "alt": "Cute Cat"
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "week": "1",
+    "day": 2,
+    "today-progress": "Today's Progress",
+    "thoughts": "Thoughts",
+    "links": [],
+    "imageUrls": []
+  },
+
+  {
+    "id": 1,
+    "week": "1",
+    "day": 3,
+    "today-progress": "Today's Progress",
+    "thoughts": "Thoughts",
+    "links": [],
+    "imageUrls": []
+  }
+]
