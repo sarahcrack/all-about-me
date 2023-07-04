@@ -4,6 +4,7 @@ import AboutMe from "../../Pages/AboutMe";
 import Projects from "../../Pages/Projects";
 import MyCodingJourney from "../../Pages/MyCodingJourney";
 import ContactMe from "../../Pages/ContactMe";
+import Journal from "../../Pages/Journal";
 
 import Navbar from "../Navbar/Navbar";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/mycodingjourney" element={<MyCodingJourney />} />
           <Route path="/contact" element={<ContactMe />} />
+          <Route path="/journal" element={<Journal />} />
         </Routes>
       </div>
     </BrowserRouter>

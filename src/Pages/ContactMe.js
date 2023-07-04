@@ -62,7 +62,7 @@ function ContactMe() {
           generator with the prompt: "Ada Lovelace, drinking a milkshake" 😊
         </p>
       </div>
-      <div className="contact-me-form">
+      {/* <div className="contact-me-form">
         <p>Alternatively, please fill out the form:</p>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSdWft_QSnasz17pozo0sBH2TSegiiDZ6h3EOFOCIbcmnYUG_Q/viewform?embedded=true"
@@ -75,7 +75,7 @@ function ContactMe() {
         >
           Loading…
         </iframe>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

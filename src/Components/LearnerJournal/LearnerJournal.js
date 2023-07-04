@@ -1,29 +1,33 @@
 import React from "react";
 import CodingJournal from "../../Data/coding-journal.json";
+import { Card, SimpleGrid } from "@chakra-ui/react";
 
 function LearnerJournal() {
   return (
     <div className="coding-journal-container">
-      {CodingJournal.map((item, index) => {
-        return (
-          <div className="coding-journal-item" key={index}>
+      <SimpleGrid columns={2} spacing={10} minChildWidth={400}>
+        {CodingJournal.map((item, index) => (
+          <Card key={index} className="coding-journal-item">
             <h1 className="coding-journal-week">WEEK {item.week}</h1>
             <h2 className="coding-journal-day">Day {item.day}</h2>
-            <p className="coding-journal-today-progress">{item.progress}</p>
-            <p className="coding-journal-today-thoughts">{item.thoughts}</p>
+            <p className="coding-journal-today-progress">
+              Today's Progress {item.progress}
+            </p>
+            <p className="coding-journal-today-thoughts">
+              Thoughts {item.thoughts}
+            </p>
             {item.links && item.links.length > 0 && (
               <div>
+                <p>Useful Links:</p>
                 {item.links.map((link, index) => (
-                  <div key={index}>
-                    <p>Useful Links:</p>
-                    <a
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {link.title}
-                    </a>
-                  </div>
+                  <a
+                    key={index}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {link.title}
+                  </a>
                 ))}
               </div>
             )}
@@ -38,9 +42,9 @@ function LearnerJournal() {
                 ))}
               </div>
             )}
-          </div>
-        );
-      })}
+          </Card>
+        ))}
+      </SimpleGrid>
     </div>
   );
 }

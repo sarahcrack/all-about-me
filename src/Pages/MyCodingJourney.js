@@ -1,8 +1,8 @@
 import Hero from "../Components/Hero/Hero";
 import Footer from "../Components/Footer/Footer";
-// import CodingJournal from "../Data/coding-journal.json";
-import LearnerJournal from "../Components/LearnerJournal/LearnerJournal";
+import AppButton from "../Components/Buttons/AppButton";
 import "./MyCodingJourney.css";
+import { NavLink } from "react-router-dom";
 
 function MyCodingJourney() {
   const heroHeading = (
@@ -55,8 +55,18 @@ function MyCodingJourney() {
           intense, 16 week process. I am excited to continue learning and see
           where this journey takes me! 🚀
         </p>
+        <div className="learner-journal-button">
+          <NavLink to="/journal">
+            <AppButton
+              bg="#FE5F55"
+              btnText="Learner Journal 👉🏻"
+              scrollDown={false}
+              className="app-button"
+            />
+          </NavLink>
+        </div>
       </div>
-      <LearnerJournal />
+
       <Footer />
     </div>
   );
