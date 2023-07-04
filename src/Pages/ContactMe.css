@@ -18,6 +18,24 @@
   font-size: 2rem;
 }
 
+.linkedin-qr-code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.linkedin-qr-code img {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.linkedin-qr-code p {
+  max-width: 300px;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+}
+
 .contact-me-form {
   display: flex;
   flex-direction: column;

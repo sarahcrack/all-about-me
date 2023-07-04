@@ -3,6 +3,7 @@ import Footer from "../Components/Footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import "./ContactMe.css";
+import LinkedInQRCode from "../Images/ada-lovelace-qr-code-linkedin.png";
 
 function ContactMe() {
   const heroHeading = (
@@ -52,6 +53,14 @@ function ContactMe() {
             className="githubIcon"
           />
         </a>
+      </div>
+      <div className="linkedin-qr-code">
+        <img src={LinkedInQRCode} alt="QR Code for LinkedIn" />
+        <p>
+          I have never been a huge fan of QR codes; however, I enjoyed creating
+          this particular one for my LinkedIn profile using an AI QR code
+          generator with the prompt: "Ada Lovelace, drinking a milkshake" 😊
+        </p>
       </div>
       <div className="contact-me-form">
         <p>Alternatively, please fill out the form:</p>
