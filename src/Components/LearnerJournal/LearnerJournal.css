@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@400&display=swap");
+
+.headings {
+  font-family: "Rowdies", cursive;
+  font-weight: 100;
+}
+
+.coding-journal-today-progress,
+.coding-journal-thoughts {
+  font-family: monospace;
+  font-size: 14px;
+}

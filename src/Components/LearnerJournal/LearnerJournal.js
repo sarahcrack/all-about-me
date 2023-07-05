@@ -1,47 +1,78 @@
 import React from "react";
 import CodingJournal from "../../Data/coding-journal.json";
-import { Card, SimpleGrid } from "@chakra-ui/react";
+import {
+  Card,
+  CardHeader,
+  SimpleGrid,
+  Flex,
+  Box,
+  Divider,
+  Text,
+} from "@chakra-ui/react";
+import "./LearnerJournal.css";
 
 function LearnerJournal() {
   return (
     <div className="coding-journal-container">
       <SimpleGrid columns={2} spacing={10} minChildWidth={400}>
         {CodingJournal.map((item, index) => (
-          <Card key={index} className="coding-journal-item">
-            <h1 className="coding-journal-week">WEEK {item.week}</h1>
-            <h2 className="coding-journal-day">Day {item.day}</h2>
-            <p className="coding-journal-today-progress">
-              Today's Progress {item.progress}
-            </p>
-            <p className="coding-journal-today-thoughts">
-              Thoughts {item.thoughts}
-            </p>
-            {item.links && item.links.length > 0 && (
-              <div>
-                <p>Useful Links:</p>
-                {item.links.map((link, index) => (
-                  <a
-                    key={index}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {link.title}
-                  </a>
-                ))}
-              </div>
-            )}
+          <Card key={index} className="coding-journal-item" mt={10} mb={10}>
+            <CardHeader>
+              <Flex>
+                <Box w="50%">
+                  <h1 className="headings">WEEK {item.week}</h1>
+                </Box>
+                <Box w="50%">
+                  <h1 className="headings">Day {item.day}</h1>
+                </Box>
+              </Flex>
+            </CardHeader>
+            <CardHeader>
+              <h1 className="headings">Today's Progress</h1>
+            </CardHeader>
+            <p className="coding-journal-today-progress">{item.progress}</p>
+            <CardHeader>
+              <h1 className="headings">Thoughts 💭</h1>
+            </CardHeader>
+            <p className="coding-journal-thoughts">{item.thoughts}</p>
+            <Divider color="#FCDDEC" mt={5} />
+            <div>
+              {item.links && item.links.length > 0 && (
+                <>
+                  <CardHeader>
+                    <h1 className="headings">Useful Links:</h1>
+                  </CardHeader>
+                  {item.links.map((link, index) => (
+                    <Text
+                      as="a"
+                      key={index}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      textDecoration="underline"
+                      _hover={{ color: "#7A9E9F" }}
+                    >
+                      {link.title}
+                    </Text>
+                  ))}
+                </>
+              )}
+            </div>
 
-            {item.imageUrls && item.imageUrls.length > 0 && (
-              <div>
-                {item.imageUrls.map((imageUrl, index) => (
-                  <div key={index}>
-                    <p>{imageUrl.title}</p>
-                    <img src={imageUrl.path} alt={imageUrl.alt} />
-                  </div>
-                ))}
-              </div>
-            )}
+            <div>
+              {item.imageUrls && item.imageUrls.length > 0 && (
+                <Box>
+                  {item.imageUrls.map((imageUrl, index) => (
+                    <div key={index}>
+                      <Text size="xs" fontStyle="italic">
+                        {imageUrl.title}
+                      </Text>
+                      <img src={imageUrl.path} alt={imageUrl.alt} />
+                    </div>
+                  ))}
+                </Box>
+              )}
+            </div>
           </Card>
         ))}
       </SimpleGrid>

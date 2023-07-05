@@ -23,7 +23,7 @@ function MyCodingJourney() {
       />
       <div className="coding-journey-container">
         <p className="coding-journey-description">
-          One day, back in 2020, I decided to take the plunge and learn to code
+          One day, back in 2021, I decided to take the plunge and learn to code
           👩‍💻 I was on maternity leave with my little girl, Ada, and was looking
           for a new challenge. I had always been interested in tech and had
           heard that they taught coding in primary schools these days! I did not
@@ -59,7 +59,7 @@ function MyCodingJourney() {
           <NavLink to="/journal">
             <AppButton
               bg="#FE5F55"
-              btnText="Learner Journal 👉🏻"
+              btnText="Learner Journal →"
               scrollDown={false}
               className="app-button"
             />

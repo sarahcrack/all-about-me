@@ -3,8 +3,8 @@
     "id": 1,
     "week": "1",
     "day": 1,
-    "progress": "Today's Progress",
-    "thoughts": "Thoughts",
+    "progress": "Lots of stuff!",
+    "thoughts": "I was a bit anxious starting SoC and juggling life alongside. However, I was set at ease straight away and really enjoyed meeting other bootcampers throughout the day. I started having a think about what I could work on for 100 days of code and will start next week. I enjoyed the fact that we were starting to learn how to learn and solve problems in a different way. I met my partner for the week, Sam who was very nice and has a background in computer science (and working in a toy shop!) which is very handy, so I can definitely learn a lot from him! Looking forward to this new adventure!!",
     "links": [
       {
         "title": "CSS Diner",
@@ -19,22 +19,20 @@
       }
     ]
   },
-
   {
-    "id": 1,
+    "id": 2,
     "week": "1",
     "day": 2,
-    "today-progress": "Today's Progress",
+    "progress": "Today's Progress",
     "thoughts": "Thoughts",
     "links": [],
     "imageUrls": []
   },
-
   {
-    "id": 1,
+    "id": 3,
     "week": "1",
     "day": 3,
-    "today-progress": "Today's Progress",
+    "progress": "Today's Progress",
     "thoughts": "Thoughts",
     "links": [],
     "imageUrls": []
