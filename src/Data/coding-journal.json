@@ -3,7 +3,7 @@
     "id": 1,
     "week": "1",
     "day": 1,
-    "progress": "Lots of stuff!",
+    "progress": "IT'S THE FIRST DAY FO BOOTCAMP!! 🤩 During an enjoyable ice breaker activity, my three fellow bootcampers and I collaborated on the creation of a poem, signalling the start of our adventurous coding journey. At the School of Code, we learned the significance of teamwork through pair programming, experienced the CSS Diner challenge as a group, explored problem-solving techniques, and embraced computational thinking. One session's quote, \"The only constant in the world is change,\" resonated deeply, highlighting the dynamic nature of the tech industry and the excitement of learning for future roles that may not even exist yet.",
     "thoughts": "I was a bit anxious starting SoC and juggling life alongside. However, I was set at ease straight away and really enjoyed meeting other bootcampers throughout the day. I started having a think about what I could work on for 100 days of code and will start next week. I enjoyed the fact that we were starting to learn how to learn and solve problems in a different way. I met my partner for the week, Sam who was very nice and has a background in computer science (and working in a toy shop!) which is very handy, so I can definitely learn a lot from him! Looking forward to this new adventure!!",
     "links": [
       {
@@ -11,20 +11,14 @@
         "url": "https://flukeout.github.io/"
       }
     ],
-    "imageUrls": [
-      {
-        "title": "Cute Cat",
-        "path": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.webp",
-        "alt": "Cute Cat"
-      }
-    ]
+    "imageUrls": [{}]
   },
   {
     "id": 2,
     "week": "1",
     "day": 2,
-    "progress": "Today's Progress",
-    "thoughts": "Thoughts",
+    "progress": "Throughout the bootcamp, we will be tackling various aspects of programming and problem-solving. We began by learning how to approach complex challenges, breaking them down using flow charts and Jamboard. One particularly tricky task was planning the SoC graduation ceremony, which required careful consideration. We delved deeper into computational thinking, exploring concepts such as decomposition, abstraction, pattern recognition, and algorithms. Refactoring became a valuable skill as we focused on reworking and organising code for improved maintainability and comprehension. We put our problem-solving abilities to the test with the Space Packer challenge, collaborating with a partner to write step-by-step algorithms. We were thrilled when we successfully solved the challenge. Another engaging activity involved revisiting Scratch, a programming language we hadn't used since applying to the bootcamp. However, the moment of truth arrived when we ventured into Git, navigating the terminal within VS Code and creating a new folder with a readme file to kick off our 100 days of code. We even established a new repository and pushed our progress to GitHub.",
+    "thoughts": "I enjoyed the challenges today and revisiting problem solving again in a number of different ways, from breaking down a big challenge to working though a more defined game. Ending the afternoon with Git was a bit intense but Liz explained it very well and I think with practise I could get a better grasp of using Git through VS Code terminal as I have only used GitHub desktop before. You definitely feel like a bit of a coder when using the terminal!",
     "links": [],
     "imageUrls": []
   },
@@ -32,9 +26,43 @@
     "id": 3,
     "week": "1",
     "day": 3,
-    "progress": "Today's Progress",
-    "thoughts": "Thoughts",
+    "progress": "During the early part of the day, we were introduced to the concept of thinking like a computer, highlighting their literal nature. Communication with computers occurs through programming languages, such as the flexible JavaScript. We learned about REPL (Read, Evaluate, Print, Loop) and began exploring various coding concepts. Topics covered included variables, if/else statements, operators, and loops (such as while and for). Additionally, we delved into functions, discovering the existence of built-in JavaScript functions like alert and prompt. Parameters and arguments were explained as defining slots and providing input to functions, respectively. It was emphasised that the \"=\" symbol is an assignment operator, not an equals sign. Furthermore, we discussed the specifics of using while loops with the \"i++\" notation, denoting an increase by one. A fellow bootcamper shared a link to VS Code pets, and now I have a delightful little cat strolling across my screen, adding some extra enjoyment to the day. Lastly, we began utilising the Terminal for cloning, adding, committing, pushing, and pulling, as we embarked on our first workshop alongside my partner, Sam.",
+    "thoughts": "It was good to get started on learning coding concepts and playing around in the console. I have done a little bit of coding before so the terminology was familiar. In isolation I think I have an ok understanding of variables, loops and functions but I think putting them together in practise to create something or solve a challenge will definitely be a challenge and something I will need to work on. ",
     "links": [],
+    "imageUrls": []
+  },
+
+  {
+    "id": 4,
+    "week": "1",
+    "day": 4,
+    "progress": "The day began with a thought-provoking mindset workshop focused on giving and receiving feedback, emphasising the importance of perspectives. We explored different casing conventions used in programming languages and their significance. The usage of variables and different declaration keywords, such as let, const, and var, was discussed, highlighting their scoping behaviours. String interpolation using backticks for injecting variables within multiple lines of text was introduced. Loops, including for and while loops, were covered, emphasising the importance of avoiding infinite loops. We learned to create and manipulate arrays, as well as work with objects and access their key values. Selecting values from objects using dot notation or square brackets was explained. Additionally, we practiced looping over arrays and performed tasks like creating balance statements for customers. Git practice, including cloning repositories and collaborating with Sam on workshops, continued. I had an insightful meeting with my mentor, George Colingridge, where we discussed his role in the text team for RAC and his previous bootcamp experience. We talked about documenting my SoC journey, leveraging platforms like LinkedIn, and the idea of starting a project after a few weeks in the course. I look forward to our weekly meetings and his support throughout the course.",
+    "thoughts": "We had quite a busy day of coding and learning new concepts. I think I need to practise a bit more with arrays and objects and pulling out certain types of information from them in the correct way and working it through logically. I understand for loops to a certain extent but would like to try using them more in practise, as well as in conjunction with arrays as I think they do confuse me somewhat. Starting to get the hang of Git and how you work together on a project with another person. Sam and I are getting on quite well with cloning repos from SoC GitHub classroom and taking it in turns to share our screens, working on a task together, then pushing our work so the other person can take over and pull/share their screen etc. Although I definitely still have to be reminded of the git commands for the terminal at times! Today we also came across an instance where I tried to pull the code that Sam had just pushed, but because I had unintentionally made a change on my local copy, there was a conflict and some scary error messages in the terminal! Something about stashing and then merging changes which we don’t understand yet but sure we will cover that later in the course! We somehow made it work (although I not sure how!).",
+    "imageUrls": []
+  },
+  {
+    "id": 5,
+    "week": "1",
+    "day": 5,
+    "progress": "My first HACKATHON! We delved into the challenge of creating a Rock Paper Scissors game with our partners. After a week's recap, we brainstormed ideas on Jamboard and followed task lists to guide our progress. We discovered useful string functions like .charAt() and .slice(), as well as .toUpperCase(). Employing Math.floor() and Math.random() enabled the computer to make random selections. We emphasised adding comments for future reference, as revisiting code can be confusing during the learning process. While attempting user input validation, we encountered unfamiliar syntax that we plan to explore further. Through Git practice and pair programming with Sam, we gained confidence in collaborating and utilising GitHub.",
+    "thoughts": "It was a really interesting challenge to work through - so much harder than it sounds! I learnt that is very important to set out a plan/the steps you are going to take before touching code, otherwise you can get very lost in it. I do look back on the code we put together and get a bit bogged down in the detail/how we actually created it but it’s so great we completed the game and it worked!! It will be great for reference going forward. ",
+    "imageUrls": []
+  },
+  {
+    "id": 6,
+    "week": "2",
+    "day": 6,
+    "progress": "",
+    "thoughts": "",
+    "imageUrls": []
+  },
+
+  {
+    "id": 11,
+    "week": "3",
+    "day": 11,
+    "progress": "",
+    "thoughts": "",
     "imageUrls": []
   }
 ]
