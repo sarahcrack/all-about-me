@@ -38,6 +38,7 @@
     "day": 4,
     "progress": "The day began with a thought-provoking mindset workshop focused on giving and receiving feedback, emphasising the importance of perspectives. We explored different casing conventions used in programming languages and their significance. The usage of variables and different declaration keywords, such as let, const, and var, was discussed, highlighting their scoping behaviours. String interpolation using backticks for injecting variables within multiple lines of text was introduced. Loops, including for and while loops, were covered, emphasising the importance of avoiding infinite loops. We learned to create and manipulate arrays, as well as work with objects and access their key values. Selecting values from objects using dot notation or square brackets was explained. Additionally, we practiced looping over arrays and performed tasks like creating balance statements for customers. Git practice, including cloning repositories and collaborating with Sam on workshops, continued. I had an insightful meeting with my mentor, George Colingridge, where we discussed his role in the text team for RAC and his previous bootcamp experience. We talked about documenting my SoC journey, leveraging platforms like LinkedIn, and the idea of starting a project after a few weeks in the course. I look forward to our weekly meetings and his support throughout the course.",
     "thoughts": "We had quite a busy day of coding and learning new concepts. I think I need to practise a bit more with arrays and objects and pulling out certain types of information from them in the correct way and working it through logically. I understand for loops to a certain extent but would like to try using them more in practise, as well as in conjunction with arrays as I think they do confuse me somewhat. Starting to get the hang of Git and how you work together on a project with another person. Sam and I are getting on quite well with cloning repos from SoC GitHub classroom and taking it in turns to share our screens, working on a task together, then pushing our work so the other person can take over and pull/share their screen etc. Although I definitely still have to be reminded of the git commands for the terminal at times! Today we also came across an instance where I tried to pull the code that Sam had just pushed, but because I had unintentionally made a change on my local copy, there was a conflict and some scary error messages in the terminal! Something about stashing and then merging changes which we don’t understand yet but sure we will cover that later in the course! We somehow made it work (although I not sure how!).",
+    "links": [],
     "imageUrls": []
   },
   {
@@ -46,14 +47,56 @@
     "day": 5,
     "progress": "My first HACKATHON! We delved into the challenge of creating a Rock Paper Scissors game with our partners. After a week's recap, we brainstormed ideas on Jamboard and followed task lists to guide our progress. We discovered useful string functions like .charAt() and .slice(), as well as .toUpperCase(). Employing Math.floor() and Math.random() enabled the computer to make random selections. We emphasised adding comments for future reference, as revisiting code can be confusing during the learning process. While attempting user input validation, we encountered unfamiliar syntax that we plan to explore further. Through Git practice and pair programming with Sam, we gained confidence in collaborating and utilising GitHub.",
     "thoughts": "It was a really interesting challenge to work through - so much harder than it sounds! I learnt that is very important to set out a plan/the steps you are going to take before touching code, otherwise you can get very lost in it. I do look back on the code we put together and get a bit bogged down in the detail/how we actually created it but it’s so great we completed the game and it worked!! It will be great for reference going forward. ",
+    "links": [],
     "imageUrls": []
   },
   {
     "id": 6,
     "week": "2",
     "day": 6,
-    "progress": "",
-    "thoughts": "",
+    "progress": "I met my new partners, Gregor and Isaac, who were helpful in understanding the 'Penny Doubler' workshop. We had a quiz on data types, and I found a diagram useful for distinguishing between primitive and non-primitive types. We learned about accessing and manipulating the DOM using JavaScript, including using document.querySelector, .textContent, .style, document.createElement, .appendChild, and .removeChild. Gregor introduced the .splice() method, which I found interesting. Additionally, I learned about the ternary operator as an alternative to if/else statements.",
+    "thoughts": "I had a terrible night as my daughter woke up at 4:30am this morning and my baby boy Otto has a tummy bug so bit crazy in our house at the moment but managed to get through the day and some interactive workshops definitely kept me on my toes!It was great meeting my new partners for the week and interested to work in a group of 3 as opposed to a pair. I think it’s great that we will get experience working with different people throughout the bootcamp. I like the fact that we could start manipulating webpages to make them more dynamic and see your code in action! There is so much that JavaScript can do in this respect which is exciting but all a bit daunting - lots to learn!",
+    "links": [],
+    "imageUrls": [
+      {
+        "title": "Data Types",
+        "path": "../../Images/data-types.png",
+        "alt": "Diagram of primitive and non-primitive data types"
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "week": "2",
+    "day": 7,
+    "progress": "Not the easiest start to the day! My 3 year old daughter, Ada, was being a little madam, my little boy, Otto, who is nearly 1 is quite poorly and I ended up on the phone for ages trying to get through to 111 as I had some ailments too. So I had one of those days where I really felt like I had done a day’s work before even sitting down at my laptop at 9am! But I made it! 💪🏻 We tackled Codewars katas and learned about JavaScript array filter, opposite number function, and sentence smashing using the join function. We also explored making web pages more dynamic with event listeners and handling input events. The majority of the day was spent utilising AI tools like ChatGPT and GitHub Copilot to create a rock paper scissors game. BREAK IT DOWN! This was the final message of the day and a very important one. I am still getting used to breaking the problem down and not getting overwhelmed by the challenge in front of me. This is also important when using the AI tools as the clearer you can be, the better they will be able to assist you!",
+    "thoughts": "Today was a challenging day, both personally and ‘professionally’ as I had a lot going on (but don’t we all!). However I really enjoyed learning more about using the AI tools and learning how best to utilise them. I definitely found myself getting sidetracked and confused during the workshop/creation of the Rock, Paper, Scissors game. However, being reminded to break the challenge down into plain English and write a comment for each line of code really helps to keep you focused and take one step at a time. I thought it was quite funny how I used ChatGPT to generate the initial code blocks and found GitHub co-pilot wanting to help me write comments for it explaining how it works once I had copied it into VS Code. Finally, I have had a bit of wobble today feeling that I am quite behind. I have been super lucky to have worked with partners who are more advanced than me and have therefore learnt a lot but at the same time makes me feel like I need to learn so much more! But then I am reminded to only compare Day 7 Sarah to day 6 Sarah and no one else; I have definitely improved 😊",
+    "links": [
+      {
+        "title": "Fat Arrow functions",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+      }
+    ],
+    "imageUrls": []
+  },
+
+  {
+    "id": 8,
+    "week": "2",
+    "day": 8,
+    "progress": "In our group, we worked on Codewars katas and encountered a problem involving the .sort() method. This method sorts an array in place and returns the sorted array. We learned that when dealing with an array of numbers, you need to use a specific syntax for proper sorting, while for letters, the default sort order is ascending. We then moved on to learning about asynchronous JavaScript, which allows programs to perform long-running tasks while remaining responsive to other events. We discussed the analogy of following a recipe asynchronously, where you can start preparing other ingredients while one task is in progress. We also learned about the setTimeout() function, which executes code after a specified time, and the setInterval() function, which runs code at regular intervals. Both functions can use callback functions. Later, we focused on APIs and how to work with them. We discovered the fetch() method, which sends a request to an API and returns a promise. We used the await keyword to wait for the response and used the .json() method to unpack the JSON data. Finally, we emphasised the importance of always awaiting a promise, and we learned that promises can be resolved, pending, or rejected.",
+    "thoughts": "Today was a very busy day with A LOT of new information to take in. I can see how powerful it is using APIs and apparently we will be creating our own APIs at some point which seems crazy at the moment! I definitely need more practise with this but hoping I have made a good start in trying to understand the concepts. The workshop at the end of day which required us to create a page that pulled information from an API and display this information in various ways was a real challenge! I was definitely very confused at times but it was great working with Gregor and Isaac who talked it through with me (not forgetting our favourite AI tools lending a hand too!). You really do need to break down a challenge like that, otherwise you get completely lost! I did the personality quiz reading for the mindset session tomorrow and apparently I am a Protagonist! I enjoyed the energiser today and decided that the image below best represents asynchronicity in my life (lots going on behind the scenes i.e. life with a young family, alongside me working hard on the bootcamp!) 😂",
+    "links": [
+      {
+        "title": "Peronalities Quiz",
+        "url": "https://www.16personalities.com/enfj-personality"
+      },
+      {
+        "title": "freeCodeCamp: Git Stash",
+        "url": "https://www.freecodecamp.org/news/git-stash-commands/#how-to-stash-your-changes-"
+      }
+    ],
     "imageUrls": []
   },
 
@@ -63,6 +106,7 @@
     "day": 11,
     "progress": "",
     "thoughts": "",
+    "links": [],
     "imageUrls": []
   }
 ]

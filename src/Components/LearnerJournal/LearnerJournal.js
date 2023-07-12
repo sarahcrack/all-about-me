@@ -10,6 +10,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import "./LearnerJournal.css";
+import dataTypes from "../../Images/data-types.png";
 
 //
 function LearnerJournal() {
@@ -23,10 +24,11 @@ function LearnerJournal() {
 
   return (
     <div className="coding-journal-container">
+      <img src={dataTypes} alt="Data Types" />
       <div className="weekly-summary">
         <h1 className="headings">WEEKLY SUMMARY</h1>
         <Flex align="center" margin={2}>
-          <Box w="30%" textAlign="right" marginRight={5}>
+          <Box w="35%" textAlign="right" marginRight={5}>
             <h1 className="headings">Week 1: </h1>
           </Box>
           <Box w="50%" textAlign="left">
@@ -43,9 +45,8 @@ function LearnerJournal() {
           </Box>
           <Box w="50%" textAlign="left">
             <p className="week-description">
-              Welcome! Let’s get down to JavaScript basics and not go LOOPy
-              WHILE we learn. IF you get stuck, ask for help, ELSE take a break
-              and come back to it later 😊 LET confidenceThisWeek = VARIABLE.
+              Codewars katas, JavaScript methods, Asynchronous JavaScript, JS
+              methods, Pokemon and new Crocs!
             </p>
           </Box>
         </Flex>
@@ -54,11 +55,7 @@ function LearnerJournal() {
             <h1 className="headings">Week 3: </h1>
           </Box>
           <Box w="50%" textAlign="left">
-            <p className="week-description">
-              Welcome! Let’s get down to JavaScript basics and not go LOOPy
-              WHILE we learn. IF you get stuck, ask for help, ELSE take a break
-              and come back to it later 😊 LET confidenceThisWeek = VARIABLE.
-            </p>
+            <p className="week-description">Codewars</p>
           </Box>
         </Flex>
         <Flex align="center" margin={2}>
@@ -270,6 +267,7 @@ function LearnerJournal() {
             </CardHeader>
             <p className="coding-journal-thoughts">{item.thoughts}</p>
             <Divider color="#FCDDEC" mt={5} />
+
             <div>
               {item.links && item.links.length > 0 && (
                 <>
@@ -282,17 +280,21 @@ function LearnerJournal() {
                     </h1>
                   </CardHeader>
                   {item.links.map((link, index) => (
-                    <Text
-                      as="a"
-                      key={index}
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      textDecoration="underline"
-                      _hover={{ color: "#7A9E9F" }}
-                    >
-                      {link.title}
-                    </Text>
+                    <React.Fragment key={index}>
+                      {index > 0 && <br />}{" "}
+                      {/* Add a line break for all links except the first one */}
+                      <Text
+                        as="a"
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        textDecoration="underline"
+                        _hover={{ color: "#7A9E9F" }}
+                        className="coding-journal-links"
+                      >
+                        {link.title}
+                      </Text>
+                    </React.Fragment>
                   ))}
                 </>
               )}
