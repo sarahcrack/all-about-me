@@ -22,6 +22,7 @@ import {
   Text,
   ButtonGroup,
   Divider,
+  AspectRatio,
 } from "@chakra-ui/react";
 
 function Projects() {
@@ -44,6 +45,17 @@ function Projects() {
       <div className="cards-container">
         <Card maxW="sm" m={10}>
           <CardBody>
+            <AspectRatio maxW="sm" ratio={16 / 9}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/LzE089mq5PM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </AspectRatio>
             <Stack mt="6" spacing="3">
               <Heading size="sm">Mighty Mini Minds 💭</Heading>
               <Text className="card-text">
@@ -52,7 +64,7 @@ function Projects() {
                 addreess it.
                 <br />
                 <strong>The Mooovers & Milkshakers 🐄 </strong>are proud to
-                present MIGHTY MINI MINDS 💭
+                present <strong>MIGHTY MINI MINDS 💭</strong>
                 <br />
                 <strong>Problem Statement:</strong> Young people can often
                 struggle to identify, articulate, and communicate their
