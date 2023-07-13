@@ -10,7 +10,6 @@ import {
   Text,
 } from "@chakra-ui/react";
 import "./LearnerJournal.css";
-import dataTypes from "../../Images/data-types.png";
 
 //
 function LearnerJournal() {
@@ -24,7 +23,6 @@ function LearnerJournal() {
 
   return (
     <div className="coding-journal-container">
-      <img src={dataTypes} alt="Data Types" />
       <div className="weekly-summary">
         <h1 className="headings">WEEKLY SUMMARY</h1>
         <Flex align="center" margin={2}>

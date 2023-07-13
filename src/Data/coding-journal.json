@@ -97,7 +97,11 @@
         "url": "https://www.freecodecamp.org/news/git-stash-commands/#how-to-stash-your-changes-"
       }
     ],
-    "imageUrls": []
+    "imageUrls": [ {
+      "title": "Energiser: (my representation of asynchronicity) 😀",
+      "path": "../../Images/async-energiser.png",
+      "alt": "Handrawn image of a coder with a calm face on the outside but lots of things going on behind the scenes"
+    }]
   },
 
   {
