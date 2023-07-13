@@ -44,6 +44,136 @@ function Projects() {
       <div className="cards-container">
         <Card maxW="sm" m={10}>
           <CardBody>
+            <Stack mt="6" spacing="3">
+              <Heading size="sm">Mighty Mini Minds 💭</Heading>
+              <Text className="card-text">
+                In a 5 week School of Code team project we were tasked with
+                identifying a problem and creating a full stack application to
+                addreess it.
+                <br />
+                <strong>The Mooovers & Milkshakers 🐄 </strong>are proud to
+                present MIGHTY MINI MINDS 💭
+                <br />
+                <strong>Problem Statement:</strong> Young people can often
+                struggle to identify, articulate, and communicate their
+                emotions.
+                <br />
+                <strong>Our Solution:</strong> To help facilitate the
+                identification of emotions for young children and to help bridge
+                the gap of communicating emotions to a trusted person. We aimed
+                to achieve this through the process of journalling and
+                supporting children to develop this skill.
+              </Text>
+              <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
+                Vite | React Router | Tailwind | Vitest | React Testing Library
+                | Netlify | GitHub | JavaScript | TanStack Query | Node.js |
+                PostgreSQL | Sequelize | JWT | Bcrypt
+              </Text>
+              <Text className="tech-stack" color="#7A9E9F" fontSize="2l">
+                Team:{" "}
+                <a
+                  href="https://www.linkedin.com/in/la-sian-lloyd/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  La-Sian Lloyd
+                </a>
+                ,
+                <a
+                  href="https://www.linkedin.com/in/guymulligan/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  {" "}
+                  Guy Mulligan
+                </a>
+                ,
+                <a
+                  href="https://www.linkedin.com/in/jonathan-gregory-b725a3203/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  {" "}
+                  Jonathan Gregory
+                </a>
+                ,
+                <a
+                  href="https://www.linkedin.com/in/samwilliamson2918/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  {" "}
+                  Sam Williamson
+                </a>{" "}
+                <a
+                  href="https://www.linkedin.com/in/dave-rodriguez-b27691216/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="team-links"
+                >
+                  {" "}
+                  David Lopez
+                </a>
+              </Text>
+              <Text className="card-text">
+                Please explore Mighty Mini Minds by launching the app below. You
+                can sign up yourself, or alternatively use the following
+                credentials to login:
+                <br />
+                <div className="login-info">
+                  Username: ada_babada
+                  <br />
+                  Password: iloveicecream
+                </div>
+              </Text>
+            </Stack>
+          </CardBody>
+          <div className="github-icon-links">
+            <a
+              href="https://github.com/dlrodev92/migthy_mini_minds"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faGithubSquare}
+                style={{ color: "#7A9E9F" }}
+                className="githubIcon"
+              />
+            </a>
+
+            <a
+              href="https://github.com/dlrodev92/mighty_mini_minds_backEnd"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faGithubSquare}
+                style={{ color: "#7A9E9F" }}
+                className="githubIcon"
+              />
+            </a>
+          </div>
+          <Divider />
+          <CardFooter style={{ display: "flex", justifyContent: "center" }}>
+            <ButtonGroup spacing="2">
+              <Button variant="solid" bg="#FCDDEC" className="launch-button">
+                <a
+                  href="https://wonderful-paletas-0c1299.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Launch App
+                </a>
+              </Button>
+            </ButtonGroup>
+          </CardFooter>
+        </Card>
+        <Card maxW="sm" m={10}>
+          <CardBody>
             <Image
               src={bridgeTheGap}
               alt="Screenshot of Around The World App"
