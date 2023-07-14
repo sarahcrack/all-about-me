@@ -60,7 +60,7 @@
     "imageUrls": [
       {
         "title": "Data Types",
-        "path": "../../Images/data-types.png",
+        "path": "images/data-types.png",
         "alt": "Diagram of primitive and non-primitive data types"
       }
     ]
@@ -97,7 +97,13 @@
         "url": "https://www.freecodecamp.org/news/git-stash-commands/#how-to-stash-your-changes-"
       }
     ],
-    "imageUrls": []
+    "imageUrls": [
+      {
+        "title": "Asynchronicity: Daily Energiser Exercise ✍️",
+        "path": "images/async-energiser.png",
+        "alt": "Image of a calm coder on the surface but a lot going on behind the scenes"
+      }
+    ]
   },
 
   {
