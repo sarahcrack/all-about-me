@@ -300,13 +300,24 @@ function LearnerJournal() {
 
             <div>
               {item.imageUrls && item.imageUrls.length > 0 && (
-                <Box>
+                <Box mb={2}>
                   {item.imageUrls.map((imageUrl, index) => (
                     <div key={index}>
-                      <Text size="xs" fontStyle="italic">
+                      <Text size="xs" fontStyle="italic" mb={1} mt={1}>
                         {imageUrl.title}
                       </Text>
-                      <img src={imageUrl.path} alt={imageUrl.alt} />
+                      <Flex justifyContent="center" alignItems="center">
+                        <img
+                          src={imageUrl.path}
+                          alt={imageUrl.alt}
+                          className="coding-journal-image"
+                          style={{
+                            width: "70%",
+                            height: "70%",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </Flex>
                     </div>
                   ))}
                 </Box>

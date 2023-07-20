@@ -41,3 +41,13 @@
   font-size: 15px;
   margin: 2px;
 }
+
+.coding-journal-image {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.coding-journal-links {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  margin: 2px;
+}
