@@ -105,6 +105,26 @@
       }
     ]
   },
+  {
+    "id": 9,
+    "week": "2",
+    "day": 9,
+    "progress": "Today's coding session started with Codewars challenges, where we came across a tricky one that required extracting the middle character(s) from a word. We used `Math.floor()` and `Math.ceil()` methods to handle odd and even word lengths, returning either the single middle character or the two middle characters accordingly. An alternative approach using `s.substr()` was also explored, simplifying the code further. The UX/UI talk with Paavan Buddhdev was captivating as he delved into the world of user experience and interface design. Titled \"Do UX Believe in Magic?,\" the session highlighted the role of storytelling in design, leveraging narrative structures to create compelling experiences. Paavan emphasised predictability, citing Jakob's Law, which suggests that users prefer digital products to work similarly to what they are accustomed to. We explored attention manipulation and Hick's Law, where decision-making time increases with more choices, emphasising the importance of intuitive design. The talk also touched on avoiding blind spots in design and injecting moments of wonder to delight users unexpectedly. Examples included animated elements for positive actions and small surprises like Gousto's wooden spoon or Monzo's personalised thank-you messages. Such magical experiences enhance user satisfaction and foster loyalty. In the afternoon, we participated in a research task, working in groups to create a 5-minute video presentation. Our topic was \"Dev tools we haven't used yet,\" and we discussed various handy tools. My favourite was the Toggle Device toolbar, which allows testing website responsiveness across different devices and network connections, providing valuable insights for optimising user experiences. The day was filled with exciting learning opportunities, ranging from coding challenges to understanding human behaviour in the context of design and teamwork dynamics.",
+    "thoughts": "I really enjoyed the mindset session today. We took the Myers-Briggs test, and I discovered my personality type as ENFJ-T, also known as the Protagonist. We discussed how different personalities can collaborate effectively in a team, recognising the potential for conflicts and the importance of resolving them by appreciating others' perspectives and working styles. The key takeaway was that diverse teams can be highly valuable if everyone respects and understands one another. I think I will definitely develop my soft skills during the bootcamp and look forward to working in different teams going forward. ",
+    "links": [
+      {
+        "title": "Dev tools we haven't used yet",
+        "url": "https://www.youtube.com/watch?v=qPsGOYpjTpI"
+      }
+    ],
+    "imageUrls": [
+      {
+        "title": "Enjoying my new Crocs to get to and from the garden office/studio 👟",
+        "path": "images/crocs.png",
+        "alt": "Image of a pair of crocs with decorative jibbitz"
+      }
+    ]
+  },
 
   {
     "id": 11,
