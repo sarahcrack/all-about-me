@@ -146,6 +146,39 @@
     "progress": "",
     "thoughts": "",
     "links": [],
+    "imageUrls": [
+      {
+        "title": "UI / UX 🙃",
+        "path": "images/uiux.png",
+        "alt": "Image of a UI/UX meme using the example of a ketchup bottle!"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "week": "3",
+    "day": 11,
+    "progress": "",
+    "thoughts": "",
+    "links": [],
+    "imageUrls": []
+  },
+  {
+    "id": 11,
+    "week": "3",
+    "day": 11,
+    "progress": "",
+    "thoughts": "",
+    "links": [],
+    "imageUrls": []
+  },
+  {
+    "id": 11,
+    "week": "3",
+    "day": 11,
+    "progress": "",
+    "thoughts": "",
+    "links": [],
     "imageUrls": []
   }
 ]
