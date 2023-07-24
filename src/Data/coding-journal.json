@@ -137,7 +137,13 @@
         "url": "https://glowing-caramel-1d2426.netlify.app"
       }
     ],
-    "imageUrls": []
+    "imageUrls": [
+      {
+        "title": "",
+        "path": "images/pokemon-battle.png",
+        "alt": "Image of a Pokemon battle game"
+      }
+    ]
   },
   {
     "id": 11,
