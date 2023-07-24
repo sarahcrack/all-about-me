@@ -131,14 +131,13 @@
     "day": 10,
     "progress": "HACKATHON day! We decided to create a Pokemon game using the PokeAPI, which initially seemed daunting due to the abundance of Pokemon stats in the API. We focused on comparing Pokemon in a 'Poke Battle' using stats and health points. The team utilised the concept of \"truthy\" values, checking if data from the API was available before running the battle function. We learned the importance of proper code organisation, ensuring functions and variables were defined before being used, and collaborated closely to troubleshoot and comment on the code. We did get some useful tips from ChatGPT and GitHub Copilot which were extremely helpful when we got stuck. This exercise also helped us to recognise the significance of writing code in a readable, understandable way, avoiding excessively condensed AI-generated code. We enjoyed designing the Pokemon game page and experimenting with styling, gaining further experience in CSS despite the occasional frustrations! Again the importance of teamwork was evident (I would be lost by myself!)",
     "thoughts": "I really enjoyed the task today and learnt a bit more about Pokemon from Gregor and Isaac who are big fans! We worked at quite a fast pace as my partners for the week are more advanced than me but I learnt a lot! I think the only downside to this is that I probably still don’t quite completely understand the code we have written and how it all fits together but I am going to go through it again and make sure I am more comfortable with it. The game looks great and love the old school feel to the styling 😊 Ready for the weekend and Otto’s 1st birthday party 🥳",
-    "links": [],
-    "imageUrls": [
+    "links": [
       {
-        "title": "Screenshot of our Pokemon Battle game 🥊",
-        "path": "images/pokemon-battle.png",
-        "alt": "Image of a Pokemon battle game"
+        "title": "Pokemon Battle Game 💪🏻",
+        "url": "https://glowing-caramel-1d2426.netlify.app"
       }
-    ]
+    ],
+    "imageUrls": []
   },
   {
     "id": 11,
