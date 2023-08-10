@@ -174,7 +174,7 @@ function Projects() {
             <ButtonGroup spacing="2">
               <Button variant="solid" bg="#FCDDEC" className="launch-button">
                 <a
-                  href="https://wonderful-paletas-0c1299.netlify.app/"
+                  href="https://migthyminiminds.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
