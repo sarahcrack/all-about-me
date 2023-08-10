@@ -56,7 +56,7 @@ function MyCodingJourney() {
           where this journey takes me! 🚀
         </p>
         <div className="learner-journal-button">
-          <NavLink to="/journal">
+          <NavLink to="/coming-soon">
             <AppButton
               bg="#FE5F55"
               btnText="Learner Journal →"

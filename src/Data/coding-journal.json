@@ -157,11 +157,6 @@
         "title": "UI / UX 🙃",
         "path": "images/uiux.png",
         "alt": "Image of a UI/UX meme using the example of a ketchup bottle!"
-      },
-      {
-        "title": "CSS tricks: Flexbox",
-        "path": "images/css-flexbox-poster.png",
-        "alt": "Image of a poster showing the CSS flexbox properties"
       }
     ]
   },

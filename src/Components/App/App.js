@@ -5,6 +5,7 @@ import Projects from "../../Pages/Projects";
 import MyCodingJourney from "../../Pages/MyCodingJourney";
 import ContactMe from "../../Pages/ContactMe";
 import Journal from "../../Pages/Journal";
+import ComingSoon from "../../Pages/ComingSoon";
 
 import Navbar from "../Navbar/Navbar";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/mycodingjourney" element={<MyCodingJourney />} />
           <Route path="/contact" element={<ContactMe />} />
           <Route path="/journal" element={<Journal />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
         </Routes>
       </div>
     </BrowserRouter>
