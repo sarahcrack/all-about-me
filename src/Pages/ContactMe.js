@@ -26,7 +26,7 @@ function ContactMe() {
         <p>
           Email:{" "}
           <a href="mailto:sarah.l.crack@googlemail.com">
-            <strong>sarah.l.crack@googlemail.com</strong>
+            <strong>sarahcrack.codes@gmail.com</strong>
           </a>
         </p>
       </div>
