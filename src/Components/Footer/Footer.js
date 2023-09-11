@@ -28,7 +28,7 @@ function Footer() {
           className="myName"
           marginLeft={30}
           mb={5}
-          fontSize={{ base: "12px", md: "16px" }}
+          fontSize={{ base: "10px", sm: "12px", md: "16px" }}
         >
           © 2023 Sarah Crack
         </Box>
@@ -38,7 +38,7 @@ function Footer() {
             className="myLinks"
             marginRight={{ base: 5, md: 70 }} // Adjust margin based on screen size
             mb={5}
-            fontSize={{ base: "12px", md: "16px" }}
+            fontSize={{ base: "10px", sm: "12px",  md: "16px" }}
           >
             This project was coded in React by{" "}
             <a

@@ -1,5 +1,6 @@
 import Hero from "../Components/Hero/Hero";
 import Footer from "../Components/Footer/Footer";
+import ContactForm from "../Components/Contact/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import "./ContactMe.css";
@@ -76,6 +77,7 @@ function ContactMe() {
           Loading…
         </iframe>
       </div> */}
+      <ContactForm />
       <Footer />
     </div>
   );
