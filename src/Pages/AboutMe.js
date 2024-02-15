@@ -1,6 +1,6 @@
 import Footer from "../Components/Footer/Footer";
 import Hero from "../Components/Hero/Hero";
-import profilePicture from "../Images/sarah.png";
+import profilePicture from "../Images/sc-pink-background.png";
 import "./AboutMe.css";
 function AboutMe() {
   const heroHeading = (
