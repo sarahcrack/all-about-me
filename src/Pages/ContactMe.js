@@ -1,6 +1,5 @@
 import Hero from "../Components/Hero/Hero";
 import Footer from "../Components/Footer/Footer";
-import ContactForm from "../Components/Contact/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import "./ContactMe.css";
@@ -58,9 +57,10 @@ function ContactMe() {
       <div className="linkedin-qr-code">
         <img src={LinkedInQRCode} alt="QR Code for LinkedIn" />
         <p>
-          I have never been a huge fan of QR codes; however, I enjoyed creating
-          this particular one for my LinkedIn profile using an AI QR code
-          generator with the prompt: "Ada Lovelace, drinking a milkshake" 😊
+          I espcailly enjoyed creating this particular QR code for my LinkedIn
+          profile using an AI QR code generator with the prompt: "Ada Lovelace,
+          drinking a milkshake" (in honour of my amazing School of Code final
+          project team: The Moovers and Milkshakers) 😊
         </p>
       </div>
       {/* <div className="contact-me-form">
@@ -77,7 +77,7 @@ function ContactMe() {
           Loading…
         </iframe>
       </div> */}
-      <ContactForm />
+     
       <Footer />
     </div>
   );
