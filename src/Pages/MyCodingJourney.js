@@ -38,8 +38,9 @@ function MyCodingJourney() {
         <p className="coding-journey-description">
           Following maternity leave number two, with my son Otto, I finally made
           the leap and applied to School of Code. I was accepted onto the 16
-          week full-time bootcamp and started in March 2023. I have been
-          learning full-stack web development and am loving it! During the
+          week full-time bootcamp and started in March 2023. I learnt all about
+          full-stack web development and loved it! Although I must admit, I
+          definitely feel more confident with the Frontend side! During the
           intensive 16-week coding course, I bolstered my teamwork,
           communication, and problem-solving skills while completing group
           projects, workshops, and hackathons. I proactively learned new
@@ -85,7 +86,7 @@ function MyCodingJourney() {
           FreeCodeCamp tutorial. I also met with my lovely friend Rosie to
           continue turning our kids colour mixing website into a React app.
           However, since September last year by GitHub is looking very quiet 😟
-          However I have recently enrolled on a CodeFirstGirls course and am
+          I have recently just finsihed a CodeFirstGirls course and have been
           developing my knowledge around SQL and data which has been very
           interesting!
         </p>
@@ -99,11 +100,11 @@ function MyCodingJourney() {
           something that I am passionate about). I will be rotating around
           different teams in the Directorate and will have the opportunity to
           learn about areas such as content design, user research, interaction
-          design, development and product management. It has been a big decision
-          to leave my current role as I love Goldsmiths, but I think I am ready
-          for a new adventure and I am hoping my new role can combine my
-          interest in digital and love of learning with my passion for the
-          education sector 🥰 Keep you posted!
+          design, service design, development and product management. It has
+          been a big decision to leave my current role as I love Goldsmiths, but
+          I think I am ready for a new adventure and I am hoping my new role can
+          combine my interest in digital and love of learning with my passion
+          for the education sector 🥰 Keep you posted!
         </p>
       </div>
 
