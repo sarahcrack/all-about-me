@@ -20,7 +20,14 @@ function Homepage() {
         bg="#B8D7F1"
         colour="#7A9E9F"
         heroHeading={heroHeading}
-        heroDescription="Aspiring Junior Developer from London 👩‍💻"
+        heroDescription={
+          <>
+            Currently exploring digital careers at the Department for Education
+            👩‍💻
+            <br />
+            📍London
+          </>
+        }
       />
       <ColouredBoxes
         bgLeft="#F5D5ED"
