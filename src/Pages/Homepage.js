@@ -22,7 +22,7 @@ function Homepage() {
         heroHeading={heroHeading}
         heroDescription={
           <>
-            Currently exploring digital careers at the Department for Education
+            Digital Associate, UK Civil Service
             👩‍💻
             <br />
             📍London

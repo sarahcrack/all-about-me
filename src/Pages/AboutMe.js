@@ -25,20 +25,21 @@ function AboutMe() {
           alt="Sarah Crack"
         />
         <p className="aboutMe-description">
-          Hello, I'm Sarah, a London based junior full-stack software developer,
-          thrilled to be looking for my first role in tech. After establishing a
-          career in higher education, I decided to take the leap into tech after
-          completing a number of part-time coding courses with SheCodes and
-          CodeFirstGirls. I then committed to learning and developing my skills
-          full-time with the School of Code. I am hoping to build a flexible
-          career in an an exciting, ever-changing industry where I can continue
-          my learning journey. Additionally, I look forward to promoting women
-          in tech (my daughter is named after Ada Lovelace after all!). <br />{" "}
-          <br />I very much enjoy learning new things and developing my skills.
-          When I am not coding, I love creating memories with my polaroid camera
-          📸, playing the piano (quite badly!) 🎹 and travelling when I can 🌎{" "}
-          <br /> <br />I live with with my husband and two little ones in
-          beautiful South East London.
+          Hello, I'm Sarah, a London based digital/tech/coding enthusiast. I am
+          thrilled to be embarking on my digital career within the civil
+          service, working as a Digital Associate at the Department for
+          Education. After establishing a career in higher education, I decided
+          to take the leap into tech after completing a number of part-time
+          coding courses with SheCodes and CodeFirstGirls. I then committed to
+          learning and developing my skills full-time with the School of Code. I
+          am hoping to build a flexible career in an an exciting, ever-changing
+          industry where I can continue my learning journey. Additionally, I
+          look forward to promoting women in tech (my daughter is named after
+          Ada Lovelace after all!). <br /> <br />I very much enjoy learning new
+          things and developing my skills. When I am not coding, I love creating
+          memories with my polaroid camera 📸, playing the piano (quite badly!)
+          🎹 and travelling when I can 🌎 <br /> <br />I live with with my
+          husband and two little ones in beautiful South East London.
         </p>
       </div>
       <Footer />

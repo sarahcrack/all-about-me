@@ -65,6 +65,46 @@ function MyCodingJourney() {
             />
           </NavLink>
         </div>
+        <p className="coding-journey-description">A few months on…… Feb 2024</p>
+        <p className="coding-journey-description">
+          It has been a while since I last wrote about my coding/tech journey. I
+          enrolled in School of Code towards the end of my maternity leave and a
+          few days after I completed the bootcamp I was back into my life at
+          Goldsmiths, University of London! I must admit, following School of
+          Code, I got swept up in getting back into my role in higher education
+          as I had been out for 15 months on maternity leave/doing the bootcamp
+          as well as being distracted by life, children, travelling to Canada,
+          Spain, The Netherlands and Mexico for work and generally just getting
+          my head around everything that had happened!
+        </p>
+        <p className="coding-journey-description">
+          As expected, I was not able to keep up with as much coding as I would
+          have liked with a full time job and family commitments. I started off
+          well and did some work on my portfolio website and started making a
+          Barbie and Ken noughts and crosses game with the help of a
+          FreeCodeCamp tutorial. I also met with my lovely friend Rosie to
+          continue turning our kids colour mixing website into a React app.
+          However, since September last year by GitHub is looking very quiet 😟
+          However I have recently enrolled on a CodeFirstGirls course and am
+          developing my knowledge around SQL and data which has been very
+          interesting!
+        </p>
+        <p className="coding-journey-description">
+          I have been very lucky to have been offered a new role at the
+          Department for Education in the Teacher Services Team. I am very
+          excited about it as I will really be able to direct my own learning
+          and rotate around different teams to support digital services related
+          to the recruitment and retention of teachers (with Ada starting school
+          this year and with some of my friends being teachers, it is definitely
+          something that I am passionate about). I will be rotating around
+          different teams in the Directorate and will have the opportunity to
+          learn about areas such as content design, user research, interaction
+          design, development and product management. It has been a big decision
+          to leave my current role as I love Goldsmiths, but I think I am ready
+          for a new adventure and I am hoping my new role can combine my
+          interest in digital and love of learning with my passion for the
+          education sector 🥰 Keep you posted!
+        </p>
       </div>
 
       <Footer />
